@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FCB2A428275808B30034E467 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB2A427275808B30034E467 /* main.swift */; };
+		FCB2A43027580A3B0034E467 /* FoodClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB2A42F27580A3B0034E467 /* FoodClass.swift */; };
+		FCB2A43327580A4B0034E467 /* FoodStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB2A43227580A4B0034E467 /* FoodStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		FCB2A424275808B30034E467 /* AdvancedSwiftProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdvancedSwiftProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB2A427275808B30034E467 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FCB2A42F27580A3B0034E467 /* FoodClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodClass.swift; sourceTree = "<group>"; };
+		FCB2A43227580A4B0034E467 /* FoodStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				FCB2A427275808B30034E467 /* main.swift */,
+				FCB2A42F27580A3B0034E467 /* FoodClass.swift */,
+				FCB2A43227580A4B0034E467 /* FoodStruct.swift */,
 			);
 			path = AdvancedSwiftProject;
 			sourceTree = "<group>";
@@ -119,7 +125,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCB2A43027580A3B0034E467 /* FoodClass.swift in Sources */,
 				FCB2A428275808B30034E467 /* main.swift in Sources */,
+				FCB2A43327580A4B0034E467 /* FoodStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
