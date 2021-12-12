@@ -46,7 +46,7 @@ print(adanaBoregi.calories)
 // copy -> same object new reference -> 1 object + 2 references
 
 
-//VALUW TYPE ---> FOR STRUCT
+//VALUE TYPE ---> FOR STRUCT
 // copy -> new object -> 2 objects
 //use struck if you are going to copy
 
@@ -116,3 +116,25 @@ func convertToIntegerWithIf(denemeInput: String) -> Int {
 print(convertToIntegerWithGuard(denemeInput: denemeTahtasi))
 print(convertToIntegerWithIf(denemeInput: denemeTahtasi))
 
+//SWITCH
+let ourNumber = 11
+
+let ourRemainder = ourNumber % 4
+
+switch ourRemainder{
+case 1:
+    print("it's 1")
+case 2:
+    print("it's 2")
+case 3:
+    print("it's 3")
+default:
+    print("none")
+}
+
+switch ourRemainder{
+case 1...4:
+    print("1 ile 4 arasında")
+default:
+print("none")
+}
